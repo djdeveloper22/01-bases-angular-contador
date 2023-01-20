@@ -1,0 +1,33 @@
+.containerHeader {
+  background-color: #006aff;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  h1 {
+    margin-left: 0.5rem;
+    flex: 2;
+  }
+
+  .containerNav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    height: inherit;
+
+    a {
+      flex: 1;
+      text-align: center;
+
+      &:hover {
+        background-color: #5da1ff;
+        transition: all 1s ease;
+      }
+    }
+  }
+}

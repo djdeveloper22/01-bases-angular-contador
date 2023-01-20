@@ -1,0 +1,37 @@
+.containerAcumulador{
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+
+  .elementosAcumulador{
+
+    display: grid;
+    gap: 1rem;
+    height: 60%;
+    place-content: center;
+    text-align: center;
+    width: 70%;
+
+    span{
+      font-size: 10rem;
+    }
+    
+    button{
+      background-color: #006aff;
+      border: none;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      color: aliceblue;
+      cursor: pointer;
+      font-size: 24px;
+      margin-right: 1rem;
+      padding: 2rem;
+      width: 30vh;
+
+      &:nth-child(2n){
+        background-color: #ff0059;
+      }
+    }
+  }
+}
