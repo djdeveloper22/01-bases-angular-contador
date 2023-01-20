@@ -17,7 +17,7 @@
     span{
       font-size: 10rem;
     }
-    
+
     button{
       background-color: #006aff;
       border: none;
@@ -33,5 +33,16 @@
         background-color: #ff0059;
       }
     }
+  }
+
+  .btnReset{
+    border: none;
+    padding: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    background-color: #ff0059;
+    color: aliceblue;
+    font-size: 24px;
   }
 }

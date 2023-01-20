@@ -16,6 +16,6 @@ export class AppAcumulador{
   }
 
   resetAcumulador(){
-    
+    return this.numero = 0;
   }
 }
