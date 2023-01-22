@@ -1,0 +1,19 @@
+<div *ngIf="show; else noBorrado">
+  <h3>Heroes eliminados</h3>
+  <span>{{deleteHeroe}}</span>
+</div>
+
+<ng-template #noBorrado>
+  <h3>Aun no elimina algun heroe</h3>
+</ng-template>
+
+<!-- borrar un elemento del array -> tarea -->
+<button style="display: block;" (click)="eraseHeroe(5)">Borrar Heroe</button>
+
+<p>listado-heroes works!</p>
+<ul>
+  <li *ngFor="let heroe of heroes; let pos = index">{{pos+1}}. {{heroe}}</li>
+</ul>
+
+
+
